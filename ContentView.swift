@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct ContentView: View {
@@ -11,7 +10,7 @@ struct ContentView: View {
             Text("Depth Aid MVP")
                 .font(.largeTitle).bold()
 
-            Text("Open the immersive space to place depth markers and use the ruler.")
+            Text("Open the immersive space to place depth markers or use the ruler.")
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
 
@@ -39,4 +38,3 @@ struct ContentView: View {
 }
 
 #Preview { ContentView() }
-
